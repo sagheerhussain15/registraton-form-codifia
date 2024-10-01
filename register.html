@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Create an account</h2>
+        <form id="registerForm">
+            <div class="form-group">
+                <label for="email">Email <span class="required" style="color: red;">*</span></label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="displayName">Display Name</label>
+                <input type="text" id="displayName" name="displayName" placeholder="Display Name">
+            </div>
+            <div class="form-group">
+                <label for="username">Username <span class="required" style="color: red;">*</span></label>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password <span class="required" style="color: red;">*</span></label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <!-- Date of Birth section -->
+            <div class="form-group">
+                <label for="dob">Date of Birth <span class="required" style="color: red;">*</span></label>
+                <div class="dob">
+                    <select id="month" name="month" required>
+                        <option value="" disabled selected>Month</option>
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <select id="day" name="day" required>
+                        <option value="" disabled selected>Day</option>
+                    </select>
+                    <select id="year" name="year" required>
+                        <option value="" disabled selected>Year</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group checkbox-group">
+                <label class="checkbox-text">
+                    <input type="checkbox">(Optional)It's okay to send me emails with updates, tips, and special offers.You can opt out at any time. 
+                </label>
+            </div>
+            <button type="submit">Continue</button>
+                <p class="terms_condition">By registering, you agree to Discord's <span style="color: #00aff4;">Terms of Service</span> and <span style="color: #00aff4;">Privacy Policy</span>.</p>
+        </form>
+        <div class="already-account">
+            <a href="#">Already have an account?</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
