@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Masonry Grid</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleMenu() {
+            const navbarLinks = document.querySelector('.navbar-links');
+            navbarLinks.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+   <nav class="navbar">
+    <img src="codifica.png" alt="navbar-logo">
+    <span class="navbar-toggle" onclick="toggleMenu()">&#9776;</span>
+    <ul class="navbar-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li> 
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+    <div class="masonry-grid">
+        <div class="grid-item wide">
+            <img src="https://i.pinimg.com/originals/03/e6/99/03e699877d34ba9ea3e2298057adbbcf.jpg" alt="Image 1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid saepe maxime, dolorem dignissimos labore quia enim quae at tempora deserunt? Quisquam est perferendis in mollitia quos. Laudantium saepe atque vero.</p>
+        </div>
+        <div class="grid-item tall">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQds-d57EEcvfNprVEC5_mZjpFtI6-AsUGcSA&s" alt="Image 2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore soluta assumenda harum doloremque dolore quasi praesentium laudantium dolor vero? Eos, minima iure excepturi natus nisi nihil explicabo iste adipisci facilis.</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://cdn.pixabay.com/photo/2023/05/20/16/54/rose-8006847_1280.jpg" alt="Image 3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatem, ex iure ab neque porro nulla voluptatibus nemo possimus eius similique nam explicabo sunt, reprehenderit accusamus esse minus ipsa delectus.</p>
+        </div>
+        <div class="grid-item wide">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtF1Gz_Xsh2r_DfO5JaLspe4oKYcEGo-myBg&s" alt="Image 4">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae eligendi possimus deserunt tempora labore laboriosam odit eos enim modi aliquid vero molestias in, eius libero? Odit molestias blanditiis quibusdam porro?</p>
+        </div>
+        <div class="grid-item tall">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAjCGTpdiWvy_mUyftYCXWweFqqv8GdQGtAQ&s" alt="Image 5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestiae harum iure sit atque animi numquam, tenetur voluptatum eius eum dignissimos ea, ipsa nobis? Cupiditate qui molestiae quaerat ipsum quas?</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy-aG7g0XiOY0mh-Xhk2GdiCaoQcFhfsoiOg&s" alt="Image 6">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum, voluptate saepe autem aut veritatis hic quibusdam dicta consequatur, fuga non deserunt, ipsam libero odit ducimus atque ab impedit dolorem!</p>
+        </div>
+        <div class="grid-item wide">
+            <img src="https://images.unsplash.com/photo-1508909389539-8b7799c9f007?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG92ZWx5fGVufDB8fDB8fHww" alt="Image 7">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt assumenda non neque corrupti modi atque perferendis saepe debitis, mollitia eligendi veniam qui dolorum asperiores eum velit! Cumque quibusdam quam ullam!</p>
+        </div>
+        <div class="grid-item tall">
+            <img src="https://plus.unsplash.com/premium_photo-1680172801113-b638f8bd2e7e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image 8">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, iure assumenda dolor repellat neque atque, omnis, sapiente aspernatur unde non mollitia provident excepturi hic quis labore perspiciatis eum soluta ipsam.</p>
+        </div>
+        <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZExXZfuy_mIpsM-T69cjwfWlNiY8MJK_shQ&s" alt="Image 9">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nemo illum amet? Quam, odio labore ab aut laboriosam officia quia cum beatae voluptas! Soluta recusandae obcaecati hic sed sequi autem.</p>
+        </div>
+    </div>
+</body>
+</html>
